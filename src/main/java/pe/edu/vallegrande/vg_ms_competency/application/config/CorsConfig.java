@@ -15,7 +15,7 @@ public class CorsConfig {
         corsConfig.addAllowedOrigin("*"); // El frontend de Angular corre en este puerto
         corsConfig.addAllowedMethod("*"); // Permitir todos los métodos (GET, POST, etc.)
         corsConfig.addAllowedHeader("*"); // Permitir todas las cabeceras
-        corsConfig.setAllowCredentials(true); // Permitir credenciales
+        //corsConfig.setAllowCredentials(true); // Permitir credenciales
 
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         source.registerCorsConfiguration("/**", corsConfig);
