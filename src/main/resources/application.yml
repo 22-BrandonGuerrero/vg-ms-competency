@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      uri: "mongodb+srv://admin:1234@mariaenriqueta.f47y4yu.mongodb.net/vg-ms-mariaenriqueta?retryWrites=true&w=majority"
+  vg-ms-course:
+    url: "https://vg-ms-course-v1-production.up.railway.app/course"
+
+server:
+  port: 8096
