@@ -9,7 +9,7 @@ import reactor.core.publisher.Mono;
 
 @CrossOrigin(origins = "*")
 @RestController
-@RequestMapping("/api/v1/directives/competency")
+@RequestMapping("/directives/competency${api.version}")
 public class CompetencyController {
 
     private final CompetencyServiceImpl competencyService;
