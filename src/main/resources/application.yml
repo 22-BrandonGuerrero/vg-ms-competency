@@ -18,5 +18,3 @@ springdoc:
     path: /swagger-ui.html
   api-docs:
     path: /competency
-
-api:
